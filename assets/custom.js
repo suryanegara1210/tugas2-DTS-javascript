@@ -70,6 +70,7 @@ decimal.addEventListener('click', (event) => {
     updateScreen(currentNumber)
 })
 
+
 const calculate = () => {
     let result = ''
     switch(calculationOperation) {
@@ -84,6 +85,9 @@ const calculate = () => {
             break;
         case '/':
             result = parseFloat(prevNumber) / parseFloat(currentNumber)
+            break;
+        case '%':
+            result = (parseFloat(prevNumber) / 100) * parseFloat(currentNumber)
             break;
         default:
             break;
