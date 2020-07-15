@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
 .calculator{
     text-align: center;
     margin: 0 auto;
@@ -9,6 +11,9 @@
     position: relative;
     top: 50px;
     text-align: center;
+}
+.disclaimer p{
+    font-family: 'Roboto Mono', monospace;
 }
 
 .calculator-screen{
